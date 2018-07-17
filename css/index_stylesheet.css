@@ -1,0 +1,113 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+    background-color: #D7D7D7;
+}
+/*------------------HEADER------------------*/
+header {
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    display: flex;
+    background-color: black;
+}
+
+#name_header {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+#name_header p {
+    text-align: center;
+    color: white;
+}
+
+#name p{
+    font-size: 20px;
+    margin-top: 10px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+#subtitle p{
+    font-size: 18px;
+    margin-top: 8px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+#name {
+    width: 80%;
+    height: 50%;
+}
+
+#subtitle {
+    width: 60%;
+    height: 50%;
+}
+
+#menu {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    margin: auto 200px auto auto;
+}
+
+.menu_element{
+    width: 20%;
+    height: 100%;
+}
+
+.menu_element p {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.menu_element:hover{
+    background-color: white;
+    border-bottom:3px solid black;
+}
+
+.menu_element:hover p{
+    color: black;
+}
+
+/*------------------HEADER------------------*/
+/*------------------SECTION-----------------*/
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+section div {
+    width: 50%;
+    margin-top: 50px;
+}
+/*---------------info_personal---------------*/
+#info_personal {
+    height: 500px;
+    border: 1px solid black;
+}
+
+/*-----------------HEADER_SECTION-----------*/
+.header_section{
+    width: 100%;
+    height: 100px;
+    margin-top: -16px;
+    background-color: black;
+}
+
+
+/*------------------SECTION-----------------*/
