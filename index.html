@@ -4,38 +4,62 @@
     <meta charset="UTF-8">
     <title>Curriculum Isard Bergonyó</title>
     <link rel="stylesheet" href="css/index_stylesheet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <div id="name_header">
-            <div id="name"><p>Isard Bergonyó</p></div>
-            <div id="subtitle"><p>&#60;  Programador  &#62;</p></div>
-        </div>
-        <div id="menu">
-            <div class="menu_element"><p>Informació Personal</p></div>
-            <div class="menu_element"><p>Formació i estudis</p></div>
-            <div class="menu_element"><p>Experiència laboral</p></div>
-            <div class="menu_element"><p>Idiomas</p></div>
-            <div class="menu_element"><p>Aptituts/habilitats</p></div>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarText">
+                <span class="navbar-text ml-auto text-center">
+                    Isard Bergonyó Prieto
+                    <br>
+                    Junior Software Developer
+                </span>
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Informació Personal <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Formació i estudis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Experiència laboral</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Idiomes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Aptituts/habilitats</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <section>
-        <div id="info_personal">
-            <div class="header_section"><p>Informació Personal</p></div>
+    <section class=" container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="./fotos/perfil.jpg">
+                  <div class="card-body">
+                    <h5 class="card-title">Isard Bergonyó Prieto</h5>
+                    <p class="card-text">Estudiante de Desarrollo de Aplicaciones Multiplataforma y Desarrollo
+                        de Aplicaciones Web.
+                    </p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><i class="fas fa-map-marker-alt size: 2x mr-2 fa-lg"></i> Barcelona, Catalunya, Espanya</li>
+                    <li class="list-group-item"><i class="fas fa-mobile-alt mr-2 fa-lg"></i> 616955345 <i class="fas fa-phone mr-auto ml-3 fa-lg"></i> 616955345</li>
+                    <li class="list-group-item"><i class="fas fa-envelope mr-2 fa-lg"></i> isardbp@gmail.com</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-8 bg-light"></div>
         </div>
-        <!--<div id="form">
-            <div class="header_section"><p></p></div>
-        </div>
-        <div id="experiencia">
-            <div class="header_section"><p></p></div>
-        </div>
-        <div id="idiomas">
-            <div class="header_section"><p></p></div>
-        </div>
-        <div id="Aptituts">
-            <div class="header_section"><p></p></div>
-        </div>
-        -->
     </section>
 </body>
 </html>
