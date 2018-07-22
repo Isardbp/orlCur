@@ -9,3 +9,41 @@ html, body{
 section {
     margin-top: 30px;
 }
+
+#age {
+	font-size: 12px;
+}
+
+#icon_group {
+	margin-top: 10px;
+}
+
+.icon {
+	height: 70px;
+	width: 70px;
+}
+
+.icon_js {
+	height: 77px;
+	width: 77px;
+	margin-top: -4px;
+}
+
+.icon_py {
+	height: 55px;
+	width: 55px;
+	margin-top: 5px;
+}
+
+.icon_mysql {
+	height: 63px;
+	width: 63px;
+	margin-top: 4px;
+}
+
+.icon_linux {
+	height: 63px;
+	width: 63px;
+	margin-top: 2px;
+
+}
