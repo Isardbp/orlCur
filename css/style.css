@@ -23,3 +23,27 @@
 #info, #aptituts{
     margin-top: 40px;
 }
+#front, #back, #other {
+    cursor: pointer;
+}
+#exp_laboral, #formacio, #idiomes {
+  margin-top: 10px;
+}
+
+#experiencies_general{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text_experience {
+  margin-top: 15px;
+}
+
+#lluis_vives{
+  width: 50%;
+  height: auto;
+  margin-top: 23px;
+  margin-left: 35px;
+
+}
