@@ -1,3 +1,6 @@
+*{
+    font-size: 12px;
+}
 #panel_front {
     padding: 50px;
     display: none;
@@ -9,4 +12,8 @@
 #panel_other {
     padding: 50px;
     display: none;
+}
+
+#info, #aptituts{
+    margin-top: 40px;
 }

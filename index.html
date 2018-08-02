@@ -39,25 +39,25 @@
     <div class="container">
       <div class="row">
         <div class="col-4">
-          <div class="card" style="width: 80%;">
-        <img class="card-img-top" src="./fotos/perfil.jpg">
-        <div class="card-body">
-          <h5 class="card-title">Isard Bergonyó Prieto</h5>
-          <p class="card-text">Estudiante de Desarrollo de Aplicaciones Multiplataforma y Desarrollo
-              de Aplicaciones Web
-          </p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"><i class="fas fa-map-marker-alt size: 2x mr-2 fa-lg"></i> Barcelona, Catalunya, Espanya</li>
-          <li class="list-group-item"><i class="fas fa-mobile-alt mr-2 fa-lg"></i> 616955345 <i class="fas fa-phone mr-auto ml-3 fa-lg"></i> 616955345</li>
-          <li class="list-group-item"><i class="fas fa-envelope mr-2 fa-lg"></i> isardbp@gmail.com</li>
-          <li class="list-group-item"><a href="https://www.github.com/Isardbp/" target="_blank"><i class="fab fa-github mr-2 fa-lg"></i> github.com/Isardbp </a></li>
-          <li class="list-group-item"><a href="https://www.linkedin.com/in/Isardbp/" target="_blank"><i class="fab fa-linkedin mr-2 fa-lg"></i> linkedin.com/in/Isardbp</a></li>
-        </ul>
-      </div>
-        </div>
+          <div class="card" id="info" style="width: 80%;">
+            <img class="card-img-top" src="./fotos/perfil.jpg">
+            <div class="card-body">
+            <h5 class="card-title">Isard Bergonyó Prieto</h5>
+            <p class="card-text">Estudiante de Desarrollo de Aplicaciones Multiplataforma y Desarrollo
+                de Aplicaciones Web
+            </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="fas fa-map-marker-alt size: 2x mr-2 fa-lg"></i> Barcelona, Catalunya, Espanya</li>
+              <li class="list-group-item"><i class="fas fa-mobile-alt mr-2 fa-lg"></i> 616955345 <i class="fas fa-phone mr-auto ml-3 fa-lg"></i> 616955345</li>
+              <li class="list-group-item"><i class="fas fa-envelope mr-2 fa-lg"></i> isardbp@gmail.com</li>
+              <li class="list-group-item"><a href="https://www.github.com/Isardbp/" target="_blank"><i class="fab fa-github mr-2 fa-lg"></i> github.com/Isardbp </a></li>
+              <li class="list-group-item"><a href="https://www.linkedin.com/in/Isardbp/" target="_blank"><i class="fab fa-linkedin mr-2 fa-lg"></i> linkedin.com/in/Isardbp</a></li>
+            </ul>
+          </div>
+          </div>
         <div class="col-8">
-          <div class="card">
+          <div class="card" id="aptituts">
             <div class="card-header">card header</div>
             <div class="card-body">
               <!--<div class="container">-->
@@ -69,7 +69,7 @@
                         <ul>
                           <li>C</li>
                           <li>Python</li>
-                          <li>pdfañkl</li>
+                          <li>Bash</li>
                         </ul>
                       </div>
                     </div>
@@ -84,24 +84,70 @@
                           <li>JavaScript</li>
                           <li>jQuery</li>
                           <li>React</li>
+                          <li>Bootstrap</li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div class="w-100"></div>
-                  <div class="col text-center">
-                    <div class="card" id="other">
-                      <div class="card-header">Altres aptituts</div>
-                      <div class="card-body">Linux_______________Mysql_____________Nodejs</div>
+                  <div class="col">
+                    <div class="card mt-4" id="other">
+                      <div class="card-header text-center">Altres aptituts</div>
+                      <div class="card-body">
+                        <ul>
+                          <li>MySQL</li>
+                          <li>Unix/Linux</li>
+                          <li>XML</li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
               <!--</div>-->
             </div>
           </div>
-          <div id="panel_front" class="card">Front-End</div>
-          <div id="panel_back" class="card">Back-End</div>
-          <div id="panel_other" class="card">Other</div>
+          <div id="panel_front" class="card">
+            <p><b>Front-End</b></p>
+            <p>Durant el meu primer any de grau superior, vam estar treballant
+              tant amb el llenguatge <b>C</b> com amb <b>Bash Script</b>.</p>
+            <p>Ara, porto un temps treballant amb <b>Python</b> a l'empresa, on
+              m'encarrego de crear un SW que permeti testejar serveis.</p>
+          </div>
+          <div id="panel_back" class="card">
+            <p><b>Back-End</b></p>
+            <p>
+              Tant a grau mitg com a grau superior hem treballat tant amb <b>HTML5</b>
+              com amb <b>CSS</b>, però a part jo tinc una titulació de la UPC en
+              <b>HTML5</b>, <b>CSS</b>, <b>Bootstrap</b>, <b>jQuery</b> i <b>Sass</b>.
+            </p>
+            <p>
+              Totes aquests tecnologies i <b>React</b>, també les he anat aprenent
+              i millorant a casa de forma autodidàcte.
+            </p>
+
+          </div>
+          <div id="panel_other" class="card">
+            <p><b>Altres</b></p>
+            <p>Porto més de tres anys treballant amb <b>Unix/Linux</b>.</p>
+            <p>També he fet <b>Administració</b> i <b>Gestò</b> de <b>Bases de
+              Dades (MySQL)</b>.</p>
+            <p>Tinc coneixement de <b>JSON</b>, <b>XML</b>, <b>XPath</b> i
+              <b>XQuery</b>.</p>
+            <p>
+              Implantació Operatius en Xarxa:
+              (<b>Samba</b>, <b>OpenLdap</b>) en <b>Ubuntu Server</b> i
+              (<b>Active Directory</b>) en <b>Windows Server</b>.
+            </p>
+            <p>
+              <b>Xarxes Locals</b>, <b>Serveis de Xarxes</b> i
+              <b>Aplicacions Ofimàtiques</b>.
+            </p>
+            <p>
+              <b>Treball en equip</b>, <b>Creativitat</b>,
+              <b>Formació Permanent</b>, <b>Organització</b>, <b>Respecte</b> i
+              <b>Empatía</b>
+            </p>
+          </div>
       </div>
   </body>
 </html>
