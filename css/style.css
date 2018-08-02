@@ -26,11 +26,17 @@
 #front, #back, #other {
     cursor: pointer;
 }
-#exp_laboral, #formacio, #idiomes {
+#exp_laboral, #form_general, #idiomes {
   margin-top: 10px;
 }
 
 #experiencies_general{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#formacio{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
