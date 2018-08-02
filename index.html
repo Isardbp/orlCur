@@ -7,7 +7,7 @@
     <script src="./jquery/jquery-3.3.1.min.js"></script>
     <script src="./js/jquery.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -59,9 +59,49 @@
         <div class="col-8">
           <div class="card">
             <div class="card-header">card header</div>
-            <div class="card-text">card text</div>
-            <div class="card-footer"> card footer</div>
+            <div class="card-body">
+              <!--<div class="container">-->
+                <div class="row">
+                  <div class="col">
+                    <div class="card" id="front">
+                      <div class="card-header text-center">Front-End</div>
+                      <div class="card-body">
+                        <ul>
+                          <li>C</li>
+                          <li>Python</li>
+                          <li>pdfañkl</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col" id="back">
+                    <div class="card">
+                      <div class="card-header text-center">Back-End</div>
+                      <div class="card-body">
+                        <ul>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>JavaScript</li>
+                          <li>jQuery</li>
+                          <li>React</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-100"></div>
+                  <div class="col text-center">
+                    <div class="card" id="other">
+                      <div class="card-header">Altres aptituts</div>
+                      <div class="card-body">Linux_______________Mysql_____________Nodejs</div>
+                    </div>
+                  </div>
+                </div>
+              <!--</div>-->
+            </div>
           </div>
+          <div id="panel_front" class="card">Front-End</div>
+          <div id="panel_back" class="card">Back-End</div>
+          <div id="panel_other" class="card">Other</div>
       </div>
   </body>
 </html>

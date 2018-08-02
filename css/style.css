@@ -1,0 +1,12 @@
+#panel_front {
+    padding: 50px;
+    display: none;
+}
+#panel_back {
+    padding: 50px;
+    display: none;
+}
+#panel_other {
+    padding: 50px;
+    display: none;
+}
