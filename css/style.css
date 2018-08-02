@@ -3,14 +3,20 @@
 }
 #panel_front {
     padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: none;
 }
 #panel_back {
     padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: none;
 }
 #panel_other {
     padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: none;
 }
 
