@@ -30,6 +30,62 @@
   margin-top: 10px;
 }
 
+#image_aptituts img{
+  height: 80px;
+  width: 80px;
+  margin-top: 10px;
+}
+#C {
+  margin-left: 50px;
+}
+#python{
+  margin-left: 50px;
+}
+
+#bash {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+#image_aptituts img:last-child{
+  height: 80px;
+  width: auto;
+}
+
+#image_aptituts_back img{
+  height: 100px;
+  width: 100px;
+}
+
+#image_aptituts_other img{
+  height: 80px;
+  width: 80px;
+  margin: auto;
+}
+
+#xml{
+  height: 40px !important;
+  width: auto !important;
+}
+#active{
+  height: 80px !important;
+  width: auto !important;
+}
+#image_aptituts_other{
+  display: flex;
+  lign-items: center;
+}
+#image_aptituts_back img:first-child{
+  height: 100px;
+  width: auto;
+}
+#jquery{
+  margin-left: 15px;
+}
+#react, #bootstrap{
+  margin-left: 30px;
+  margin-top: 10px;
+}
 #experiencies_general{
   display: flex;
   flex-direction: row;
