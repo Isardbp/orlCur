@@ -107,5 +107,8 @@
   height: auto;
   margin-top: 23px;
   margin-left: 35px;
+  }
 
+th {
+	width: 109px !important;
 }

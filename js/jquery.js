@@ -14,4 +14,8 @@ $(document).ready(function() {
     $("#panel_back").slideUp("slow");
     $("#panel_front").slideUp("slow");
   });
+  $("#front").hover(function(){
+	var foto = $(".foto_front");
+	  foto.animate({height: '70px', width: 'auto'}, "slow");
+  });
 });
