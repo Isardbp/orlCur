@@ -67,10 +67,6 @@
   height: 40px !important;
   width: auto !important;
 }
-#active{
-  height: 80px !important;
-  width: auto !important;
-}
 #image_aptituts_other{
   display: flex;
   lign-items: center;
